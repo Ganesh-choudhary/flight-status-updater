@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+  }
+  
+  #status-title {
+    color: #17a2b8;
+  }
+  
+  #status-details {
+    color: #6c757d;
+  }
+  

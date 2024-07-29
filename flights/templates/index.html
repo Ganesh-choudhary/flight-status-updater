@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Status Updates</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mt-4">Flight Status Updates</h1>
+    <div id="flight-status" class="mt-5">
+      <div class="card">
+        <div class="card-header">Current Status</div>
+        <div class="card-body">
+          <h5 class="card-title" id="status-title">Loading...</h5>
+          <p class="card-text" id="status-details"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
